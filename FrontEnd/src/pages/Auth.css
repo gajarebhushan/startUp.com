@@ -1,0 +1,176 @@
+/* Common Styles */
+.auth-page {
+  background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Numans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-page .container {
+  height: 100%;
+  align-content: center;
+}
+
+.auth-page .card {
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color:rgb(161, 97, 216)!important;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auth-page .card-header {
+  background: transparent;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.auth-page .card-header h3 {
+  color: white;
+}
+
+.auth-page .social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #FFC312;
+}
+
+.auth-page .social_icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.auth-page .input-group-prepend span {
+  width: 40px;
+  height: 40px;
+  background-color: #ffc107;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-page .input-group-prepend {
+  margin-right: 0;
+}
+
+.auth-page .input-group .form-control {
+  border-left: none;
+}
+
+/* Login Specific Styles */
+.login-page .card-header h3,
+.login-page .links a {
+  color: #ffc107;
+}
+
+.login-page .links a:hover {
+  text-decoration: underline;
+}
+
+/* Signup Specific Styles */
+.signup-page .card-header h3,
+.signup-page .links a {
+  color: #00ccff;
+}
+
+.signup-page .links a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/*
+ @import url('https://fonts.googleapis.com/css?family=Numans');
+html, body {
+  background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+  margin: 0;
+  padding: 0;
+} 
+
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center; 
+}
+
+.card {
+  height: auto;
+  margin: auto;
+  width: 400px;
+  background-color:rgb(52 28 195 / 70%) !important;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background: transparent;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.card-header h3 {
+  color: white;
+}
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #FFC312;
+}
+
+.social_icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.input-group-prepend span {
+  width: 40px; 
+  height: 40px; 
+  background-color: #ffc107;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group-prepend {
+  margin-right: 0;
+}
+
+.input-group .form-control {
+  border-left: none; 
+}
+
+.card-footer {
+  background: transparent;
+  border-top: none;
+  padding-top: 0;
+  text-align: center;
+}
+
+.card-footer a {
+  color: #00ccff; 
+  text-decoration: none;
+}
+
+.card-footer a:hover {
+  text-decoration: underline;
+}
+
+label {
+    display: inline-block;
+    color: white;
+} */

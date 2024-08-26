@@ -1,0 +1,68 @@
+.home {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.home-hero {
+  background-image: url('./images/home-background.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-btn {
+  background-color: #ffcc00;
+  color: #2d3e50;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.services-section {
+  padding: 50px 0;
+}
+
+.service-card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.service-card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.service-card h5 {
+  color: #2d3e50;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact-section {
+  background: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact-section h2 {
+  color: #2d3e50;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.contact-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact-section .btn-primary {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px 30px;
+  font-weight: bold;
+  color: #2d3e50;
+}

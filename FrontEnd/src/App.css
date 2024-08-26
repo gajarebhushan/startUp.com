@@ -1,0 +1,15 @@
+/* Styles specific to App component */
+.container {
+  padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+}
+
+.nav-links:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* Add additional styles as needed */
